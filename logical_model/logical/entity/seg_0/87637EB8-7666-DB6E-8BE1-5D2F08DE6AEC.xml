@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="87637EB8-7666-DB6E-8BE1-5D2F08DE6AEC" name="Faculty">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-16 00:03:08 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="C71330CF-CA4E-6F6A-EC81-9A8451421595" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorColumnName>type</discriminatorColumnName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="faculty_id" id="58CAC6FD-4841-B1FF-705B-2260F950822F">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-16 00:03:13 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="C71330CF-CA4E-6F6A-EC81-9A8451421595" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="2D7FCE4A-AC49-57FB-F3C5-7DE987ACE7D5">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-16 00:03:25 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="C71330CF-CA4E-6F6A-EC81-9A8451421595" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="DB6BDFDD-DBEC-6C48-8467-7DBA0F753CE2">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-16 00:03:37 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="C71330CF-CA4E-6F6A-EC81-9A8451421595" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_address" id="CD3027D1-B752-50F7-9ACE-3628BC41AE42">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-16 00:15:53 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="C71330CF-CA4E-6F6A-EC81-9A8451421595" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="department_id" id="2B5A4A59-E7FB-886B-FC85-4BE79C164FF9">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-16 00:24:18 UTC</createdTime>
+<generatorID>866842A2-C7A1-54ED-7D7F-16BFCEE6DEE8</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="C71330CF-CA4E-6F6A-EC81-9A8451421595" value="true"/>
+</engineerTo>
+<referedAttribute>D7A68365-A5C9-49EA-2A14-79A303EF4217</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2D55B774-88A4-A78A-1E13-25B49C1EBDF3" name="Faculty PK">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-16 00:03:23 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="C71330CF-CA4E-6F6A-EC81-9A8451421595" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>58CAC6FD-4841-B1FF-705B-2260F950822F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

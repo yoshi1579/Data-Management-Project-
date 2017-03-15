@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC63313F-A037-B6A6-16D8-0061F4C77D32" name="Department">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-17 01:49:29 UTC</createdTime>
+<generatorID>54DFBC67-10B0-ACFB-4634-76AA774E06F6</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="department_id" id="93DF344F-F05C-BFD9-7A7C-9BDC0BA01688">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-17 01:49:29 UTC</createdTime>
+<generatorID>D7A68365-A5C9-49EA-2A14-79A303EF4217</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dept_name" id="97369747-3BF0-4FEB-0125-272B2ED40129">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-17 01:49:29 UTC</createdTime>
+<generatorID>4CE760D6-824B-51CE-DCE4-C8BC513C9CC0</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0EE5BB28-7F73-3B3A-061F-F4E90DEBC5B5" name="Department_PK">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-17 01:49:29 UTC</createdTime>
+<generatorID>78D0914B-B421-5392-BBC8-74A2F766CF39</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93DF344F-F05C-BFD9-7A7C-9BDC0BA01688"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

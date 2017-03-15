@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4789BC18-465A-C6E2-9DA9-8FB2B6F1F4A6" name="Student">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-15 23:54:21 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="C71330CF-CA4E-6F6A-EC81-9A8451421595" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="student_id" id="CBF6A596-043D-0BDA-B928-680C35BBE4BA">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-15 23:57:44 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="C71330CF-CA4E-6F6A-EC81-9A8451421595" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="001AF1E2-27CC-41EA-B065-8DDC5D91DF90">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-15 23:54:55 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="C71330CF-CA4E-6F6A-EC81-9A8451421595" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="72E51D1C-B3AD-1CCD-D26D-952E96F89938">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-15 23:55:16 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="C71330CF-CA4E-6F6A-EC81-9A8451421595" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_address" id="6BA4C3A1-D711-67C2-EBA5-DE24E7A58A1B">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-16 00:15:45 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="C71330CF-CA4E-6F6A-EC81-9A8451421595" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="department_id" id="E80CBDE0-F017-9033-A28A-0F976F7F1098">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-16 00:25:22 UTC</createdTime>
+<generatorID>7F24C185-BA9C-D1E7-1CD4-186FE1AE9B4F</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="C71330CF-CA4E-6F6A-EC81-9A8451421595" value="true"/>
+</engineerTo>
+<referedAttribute>D7A68365-A5C9-49EA-2A14-79A303EF4217</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FDF7F76F-61A1-676B-5206-7AAFA91A0163" name="Student PK">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-15 23:57:56 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="C71330CF-CA4E-6F6A-EC81-9A8451421595" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CBF6A596-043D-0BDA-B928-680C35BBE4BA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

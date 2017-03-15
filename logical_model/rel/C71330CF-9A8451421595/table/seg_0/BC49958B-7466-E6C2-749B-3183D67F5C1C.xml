@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC49958B-7466-E6C2-749B-3183D67F5C1C" name="Relation_2">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-17 01:49:29 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Student_student_id" id="1FE4940A-3197-BA80-92A8-427DA0424928">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-17 01:49:29 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="582249CA-D3EF-7D79-6EE4-16FB0165016B" referredColumn="4DF2EDA7-F708-01DC-D289-85A6B70C47D9"/>
+</associations>
+</Column>
+<Column name="Course_course_id" id="7A00584B-414D-9FE7-A12F-6C220C3B33A2">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-17 01:49:29 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00D6C0D3-52EE-41EC-AC62-3254D967B9DD" referredColumn="DAC94DA6-EA98-14B8-7F43-4AD52B93AEFE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1E43C57C-C30A-F9F9-9A06-31DF8657E6F7" name="Relation_2_PK">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-17 01:49:29 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FE4940A-3197-BA80-92A8-427DA0424928"/>
+<colUsage columnID="7A00584B-414D-9FE7-A12F-6C220C3B33A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA3D3172-8753-5312-3AF4-9B8A78CF65B8" name="FK_ASS_6">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-17 01:49:29 UTC</createdTime>
+<generatorID>DAC224A4-128A-A684-E631-2F1A71C62900</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FE4940A-3197-BA80-92A8-427DA0424928"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27A4D83D-CAF7-EAEC-DB98-5276A32DFEC4" name="FK_ASS_7">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-17 01:49:29 UTC</createdTime>
+<generatorID>DAC224A4-128A-A684-E631-2F1A71C62900</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A00584B-414D-9FE7-A12F-6C220C3B33A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

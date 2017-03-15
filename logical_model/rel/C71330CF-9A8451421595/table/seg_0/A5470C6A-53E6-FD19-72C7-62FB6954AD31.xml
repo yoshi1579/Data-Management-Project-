@@ -1,0 +1,225 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5470C6A-53E6-FD19-72C7-62FB6954AD31" name="Faculty">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-17 01:49:29 UTC</createdTime>
+<generatorID>87637EB8-7666-DB6E-8BE1-5D2F08DE6AEC</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="faculty_id" id="9A8F9A06-60DF-7079-7CC5-E0891C8F5EFE">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-17 01:49:29 UTC</createdTime>
+<generatorID>58CAC6FD-4841-B1FF-705B-2260F950822F</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="A23463E4-AC5F-B9A1-EE79-A1CF2D4A9D59">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-17 01:49:29 UTC</createdTime>
+<generatorID>2D7FCE4A-AC49-57FB-F3C5-7DE987ACE7D5</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="25A1E52A-78F1-8ECD-B63B-0E1A4AD6AC40">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-17 01:49:29 UTC</createdTime>
+<generatorID>DB6BDFDD-DBEC-6C48-8467-7DBA0F753CE2</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_address" id="78DAD6F3-9B41-68E6-EAEF-FBB6028A5B49">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-17 01:49:29 UTC</createdTime>
+<generatorID>CD3027D1-B752-50F7-9ACE-3628BC41AE42</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="department_id" id="FB00D021-6A05-EFA5-1DE3-F2BAFAEAAA3B">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-17 01:49:29 UTC</createdTime>
+<generatorID>2B5A4A59-E7FB-886B-FC85-4BE79C164FF9</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91A92B5D-85AD-3701-3BB1-341E2283D111" referredColumn="93DF344F-F05C-BFD9-7A7C-9BDC0BA01688"/>
+</associations>
+</Column>
+<Column name="yearly_salary" id="EEB6D707-5D6A-929C-9115-B2EB0D5E43FF">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-17 01:49:29 UTC</createdTime>
+<generatorID>BE6C468D-9245-A009-B265-FFA00942FF6A</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hourly_salary" id="14F69418-D302-2B76-D68F-1A9032F76B82">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-17 01:49:29 UTC</createdTime>
+<generatorID>B88D80F3-BDE1-BECC-F63C-50202E7389E4</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="CB8B376A-C62A-046D-5F00-ACF742534496">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-17 01:49:29 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<constraintName>CH_INH_Faculty</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<listOfValues>
+<valueDef value="Faculty" description="entity Faculty"/>
+<valueDef value="Professor" description="entity Professor"/>
+<valueDef value="Teacher_Assistant" description="entity Teacher Assistant"/>
+</listOfValues>
+<ownDataTypeParameters>17,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+<dependentColumns>
+<dependentColumn class="oracle.dbtools.crest.model.design.relational.Column$DependentColumnDescriptor">
+<columnID>A23463E4-AC5F-B9A1-EE79-A1CF2D4A9D59</columnID>
+<dependAsMandatory>false</dependAsMandatory>
+<dependOnValue>true</dependOnValue>
+<discriminatorValue>Faculty</discriminatorValue>
+<id>BE4FF9F3-0AA6-CEEA-211F-8968AB02AA2F</id>
+</dependentColumn>
+<dependentColumn class="oracle.dbtools.crest.model.design.relational.Column$DependentColumnDescriptor">
+<columnID>25A1E52A-78F1-8ECD-B63B-0E1A4AD6AC40</columnID>
+<dependAsMandatory>false</dependAsMandatory>
+<dependOnValue>true</dependOnValue>
+<discriminatorValue>Faculty</discriminatorValue>
+<id>519D12A2-D077-20AF-05BE-67627FDDCE42</id>
+</dependentColumn>
+<dependentColumn class="oracle.dbtools.crest.model.design.relational.Column$DependentColumnDescriptor">
+<columnID>78DAD6F3-9B41-68E6-EAEF-FBB6028A5B49</columnID>
+<dependAsMandatory>false</dependAsMandatory>
+<dependOnValue>true</dependOnValue>
+<discriminatorValue>Faculty</discriminatorValue>
+<id>5EA24A60-4957-F290-2000-4007527D3EE0</id>
+</dependentColumn>
+<dependentColumn class="oracle.dbtools.crest.model.design.relational.Column$DependentColumnDescriptor">
+<columnID>EEB6D707-5D6A-929C-9115-B2EB0D5E43FF</columnID>
+<dependAsMandatory>false</dependAsMandatory>
+<dependOnValue>true</dependOnValue>
+<discriminatorValue>Professor</discriminatorValue>
+<id>65D1C4E7-B7C2-A1AB-DD61-87996BBA5D50</id>
+</dependentColumn>
+<dependentColumn class="oracle.dbtools.crest.model.design.relational.Column$DependentColumnDescriptor">
+<columnID>A23463E4-AC5F-B9A1-EE79-A1CF2D4A9D59</columnID>
+<dependAsMandatory>false</dependAsMandatory>
+<dependOnValue>true</dependOnValue>
+<discriminatorValue>Professor</discriminatorValue>
+<id>F0A08E2A-7D59-41E2-F00D-2EECC132C147</id>
+</dependentColumn>
+<dependentColumn class="oracle.dbtools.crest.model.design.relational.Column$DependentColumnDescriptor">
+<columnID>25A1E52A-78F1-8ECD-B63B-0E1A4AD6AC40</columnID>
+<dependAsMandatory>false</dependAsMandatory>
+<dependOnValue>true</dependOnValue>
+<discriminatorValue>Professor</discriminatorValue>
+<id>7B21A5C4-1AE0-A7FF-D935-ACAC0EFF4E08</id>
+</dependentColumn>
+<dependentColumn class="oracle.dbtools.crest.model.design.relational.Column$DependentColumnDescriptor">
+<columnID>78DAD6F3-9B41-68E6-EAEF-FBB6028A5B49</columnID>
+<dependAsMandatory>false</dependAsMandatory>
+<dependOnValue>true</dependOnValue>
+<discriminatorValue>Professor</discriminatorValue>
+<id>0CC28020-FAAF-AE45-FE13-762603014646</id>
+</dependentColumn>
+<dependentColumn class="oracle.dbtools.crest.model.design.relational.Column$DependentColumnDescriptor">
+<columnID>14F69418-D302-2B76-D68F-1A9032F76B82</columnID>
+<dependAsMandatory>false</dependAsMandatory>
+<dependOnValue>true</dependOnValue>
+<discriminatorValue>Teacher_Assistant</discriminatorValue>
+<id>B3A0F95B-29E7-3E8D-A89C-FBAFB3C78C7A</id>
+</dependentColumn>
+<dependentColumn class="oracle.dbtools.crest.model.design.relational.Column$DependentColumnDescriptor">
+<columnID>A23463E4-AC5F-B9A1-EE79-A1CF2D4A9D59</columnID>
+<dependAsMandatory>false</dependAsMandatory>
+<dependOnValue>true</dependOnValue>
+<discriminatorValue>Teacher_Assistant</discriminatorValue>
+<id>6608DCBD-6DF3-613C-D796-5E8D6F20FBC9</id>
+</dependentColumn>
+<dependentColumn class="oracle.dbtools.crest.model.design.relational.Column$DependentColumnDescriptor">
+<columnID>25A1E52A-78F1-8ECD-B63B-0E1A4AD6AC40</columnID>
+<dependAsMandatory>false</dependAsMandatory>
+<dependOnValue>true</dependOnValue>
+<discriminatorValue>Teacher_Assistant</discriminatorValue>
+<id>F216ADE0-A6A7-FBC4-D775-F64C3C03F937</id>
+</dependentColumn>
+<dependentColumn class="oracle.dbtools.crest.model.design.relational.Column$DependentColumnDescriptor">
+<columnID>78DAD6F3-9B41-68E6-EAEF-FBB6028A5B49</columnID>
+<dependAsMandatory>false</dependAsMandatory>
+<dependOnValue>true</dependOnValue>
+<discriminatorValue>Teacher_Assistant</discriminatorValue>
+<id>14C1D28B-8D81-7C7C-82FC-BB1896CC5B76</id>
+</dependentColumn>
+</dependentColumns>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BBA34B78-D722-EE69-4098-822719E6D260" name="Faculty_PK">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-17 01:49:29 UTC</createdTime>
+<generatorID>2D55B774-88A4-A78A-1E13-25B49C1EBDF3</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A8F9A06-60DF-7079-7CC5-E0891C8F5EFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="231394B9-691F-8A08-441A-655D10DD70D5" name="Relation_4">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-17 01:49:29 UTC</createdTime>
+<generatorID>866842A2-C7A1-54ED-7D7F-16BFCEE6DEE8</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB00D021-6A05-EFA5-1DE3-F2BAFAEAAA3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

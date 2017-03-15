@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="89A2BAF4-D03D-F49A-3BA3-EACA4B320C4F" name="Office Hours">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-16 00:36:52 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="C71330CF-CA4E-6F6A-EC81-9A8451421595" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="office_hours_id" id="9B504ECF-326C-DC60-20EC-45AC37C9E00A">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-16 00:37:01 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="C71330CF-CA4E-6F6A-EC81-9A8451421595" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="336A3BD6-FD94-7383-B3F2-22C5F67297C3">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-17 01:45:06 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="C71330CF-CA4E-6F6A-EC81-9A8451421595" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location" id="A85E7D6F-1B22-42B4-57A9-6BEB378E4D46">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-16 00:37:13 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="C71330CF-CA4E-6F6A-EC81-9A8451421595" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="course_id" id="97C9C921-99CE-AD2C-7F4F-9D678BBB6556">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-16 00:37:51 UTC</createdTime>
+<generatorID>33A1C6F4-62F6-35BD-AA9E-2AE3C424C67D</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="C71330CF-CA4E-6F6A-EC81-9A8451421595" value="true"/>
+</engineerTo>
+<referedAttribute>511B9333-CD59-E590-DF3A-9779CC8BE7FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_id" id="E87C5E3D-FC02-680E-42E0-C24E052D134F">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-16 00:37:56 UTC</createdTime>
+<generatorID>5B04F304-63BF-4672-C436-30C57D8201F4</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="C71330CF-CA4E-6F6A-EC81-9A8451421595" value="true"/>
+</engineerTo>
+<referedAttribute>CBF6A596-043D-0BDA-B928-680C35BBE4BA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="faculty_id" id="F38226A9-24B6-C562-D708-313C6D323B0B">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-16 22:43:39 UTC</createdTime>
+<generatorID>0B9C01D5-2633-B9CC-342B-B528BBF5416F</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="C71330CF-CA4E-6F6A-EC81-9A8451421595" value="true"/>
+</engineerTo>
+<referedAttribute>58CAC6FD-4841-B1FF-705B-2260F950822F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C911A2A7-D34C-DAB0-7C8B-A4EB6C023B7E" name="Class PK">
+<createdBy>ricky</createdBy>
+<createdTime>2017-02-16 00:38:25 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="C71330CF-CA4E-6F6A-EC81-9A8451421595" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9B504ECF-326C-DC60-20EC-45AC37C9E00A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
